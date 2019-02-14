@@ -5,21 +5,21 @@ export default class App extends React.Component{
     constructor(props){
         super(props);
         this.state = {
-            name : 'Aruljothi !'
+            title : props.name
         };
     }
 
     componentDidMount(){
         setTimeout(()=>{
             this.setState({
-                name : 'Aruljothi Parthiban !'
+                title : 'Aruljothi Parthiban'
             });
-        }, 3000)        
+        }, 10000)        
     }
 
     render(){
         return (
-            <div>Hello {this.state.name}</div>
+            <div>Hello {this.state.title}</div>
         );
     }
 };

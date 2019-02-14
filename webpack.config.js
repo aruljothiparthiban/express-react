@@ -22,7 +22,8 @@ const client = {
     },
     plugins : [
         new HtmlWebpackPlugin({
-            template : './src/client/index.html'
+            template : './src/client/index.html',
+            filename : 'client.html'
         }),
         new CopyWebpackPlugin([
             {
