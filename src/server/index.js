@@ -1,6 +1,9 @@
 import express from 'express';
 import path from 'path';
 import fs from 'fs';
+import React from 'react';
+import { renderToString } from 'react-dom/server';
+import App from '../client/components/App';
 
 const app = express();
 
@@ -12,6 +15,8 @@ app.use('/', (req, res)=>{
         if(err){
             return res.status(500).send(err.message);
         }
+        let jsxOut = renderToString(<App />);
+        html = html.replace('<div id="root"></div>', `<div id="root">${jsxOut}</div>`);
         res.send(html);
     });
 });

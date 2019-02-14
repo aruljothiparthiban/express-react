@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const nodeExternals = require('webpack-node-externals');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const client = {
     entry : './src/client/index.js',
@@ -22,7 +23,13 @@ const client = {
     plugins : [
         new HtmlWebpackPlugin({
             template : './src/client/index.html'
-        })
+        }),
+        new CopyWebpackPlugin([
+            {
+                from : path.join(__dirname, 'src/client/assets'),
+                to : path.join(__dirname, 'dist/public/assets')
+            }
+        ])
     ]
 };
 
