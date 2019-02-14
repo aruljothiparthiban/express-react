@@ -4,7 +4,7 @@
   "description": "Express React ",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
+    "start": "webpack --mode development --watch",
     "build": "webpack --mode production"
   },
   "author": "Aruljothi Parthiban",
@@ -21,7 +21,6 @@
     "babel-loader": "^8.0.5",
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.29.3",
-    "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.1.14"
+    "webpack-cli": "^3.2.3"
   }
 }
