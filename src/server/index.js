@@ -46,6 +46,8 @@ app.use('/dust/', (req, res) => {
     });
 });
 
-app.listen(3000, ()=>{
-    console.log('Application started!');
+let port = process.env.PORT || 3000;
+
+app.listen(port, ()=>{
+    console.log('Application started on port '+ port);
 });

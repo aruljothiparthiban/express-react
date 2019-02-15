@@ -8,7 +8,7 @@
     "dev:client": "webpack --mode development --watch",
     "dev": "npm-run-all --parallel dev:*",
     "build": "webpack --mode production",
-    "start": "node dist/server_bundle.js",
+    "start": "webpack --mode production && node dist/server_bundle.js",
     "load-test-react:run": "node_modules/.bin/artillery run -o test/load/react-report.json test/load/react.yml",
     "load-test-react:report": "node_modules/.bin/artillery report test/load/react-report.json",
     "load-test-react": "npm-run-all load-test-react:*",
