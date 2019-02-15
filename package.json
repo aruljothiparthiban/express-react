@@ -4,11 +4,14 @@
   "description": "Express React ",
   "main": "index.js",
   "scripts": {
-    "dev:server": "nodemon dist/server_bundle.js",
+    "dev:server": "nodemon --watch src dist/server_bundle.js",
     "dev:client": "webpack --mode development --watch",
     "dev": "npm-run-all --parallel dev:*",
     "build": "webpack --mode production",
-    "start": "node dist/server_bundle.js"
+    "start": "node dist/server_bundle.js",
+    "load-test-react:run":"node_modules/.bin/artillery run -o test/load/react-report.json test/load/react.yml",
+    "load-test-react:report":"node_modules/.bin/artillery report test/load/react-report.json",
+    "load-test-react": "npm-run-all load-test-react:*"
   },
   "author": "Aruljothi Parthiban",
   "license": "MIT",
@@ -25,6 +28,7 @@
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.0.0",
+    "artillery": "^1.6.0-27",
     "babel-loader": "^8.0.5",
     "copy-webpack-plugin": "^4.6.0",
     "html-webpack-plugin": "^3.2.0",
