@@ -1,0 +1,59 @@
+{
+    "items":[
+        {
+            "_id": "5c619a37ed3e6f79ca7dd5b0",
+            "programName": "Quarterly Thank You",
+            "channel": "Direct Mail",
+            "campaignTitle": "QTY Training Campaign",
+            "directMailCampaignCode": "C000001111",
+            "campaignStartDate": "2019-08-19T05:00:00.000Z",
+            "campaignEndDate": "2019-10-25T05:00:00.000Z",
+            "status": "Published",
+            "title": "qty training campaign"
+        },
+        {
+            "_id": "5c4f48c14de853c4b77a3047",
+            "programName": "Test Program",
+            "channel": "Direct Mail",
+            "campaignTitle": "Test Campaign For HM1",
+            "directMailCampaignCode": "0011",
+            "campaignStartDate": "2019-02-08T18:30:00.000Z",
+            "campaignEndDate": "2019-02-10T18:30:00.000Z",
+            "status": "Published",
+            "title": "test campaign for hm1"
+        },
+        {
+            "_id": "5c59eae1c9a23479c4de6a2c",
+            "programName": "Custom Solo",
+            "channel": "Direct Mail",
+            "campaignTitle": "RB Neuriva Direct Mail",
+            "directMailCampaignCode": "C000003520",
+            "campaignStartDate": "2019-03-31T05:00:00.000Z",
+            "campaignEndDate": "2019-06-01T05:00:00.000Z",
+            "status": "Locked",
+            "title": "rb neuriva direct mail"
+        },
+        {
+            "_id": "5c3ca94ae77bc2d9007c08a1",
+            "programName": "Quarterly Thank You",
+            "channel": "Direct Mail",
+            "campaignTitle": "Hallmark Max 5 Offers",
+            "directMailCampaignCode": "C00003456",
+            "campaignStartDate": "2019-02-02T06:00:00.000Z",
+            "campaignEndDate": "2019-02-13T06:00:00.000Z",
+            "status": "Locked",
+            "title": "hallmark max 5 offers"
+        },
+        {
+            "_id": "5c3d1b2935c2a48ed797cdb9",
+            "programName": "Custom Solo",
+            "channel": "Direct Mail",
+            "campaignTitle": "Hallmark 5 Offer Test 2",
+            "directMailCampaignCode": "C000002828",
+            "campaignStartDate": "2019-01-25T06:00:00.000Z",
+            "campaignEndDate": "2019-02-02T06:00:00.000Z",
+            "status": "Locked",
+            "title": "hallmark 5 offer test 2"
+        }
+    ]
+}

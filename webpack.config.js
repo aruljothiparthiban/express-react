@@ -29,6 +29,10 @@ const client = {
             {
                 from : path.join(__dirname, 'src/client/assets'),
                 to : path.join(__dirname, 'dist/public/assets')
+            },
+            {
+                from : path.join(__dirname, 'src/data'),
+                to : path.join(__dirname, 'dist/public/data')
             }
         ])
     ]
