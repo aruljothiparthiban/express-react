@@ -64,8 +64,8 @@ export default class App extends React.Component{
                                             <td>{p.directMailCampaignCode}</td>
                                             <td>{p.title}</td>
                                             <td>{p.channel}</td>
-                                            <td>{moment(p.campaignStartDate).format('DD/MM/YYYY')}</td>
-                                            <td>{moment(p.campaignEndDate).format('DD/MM/YYYY')}</td>
+                                            <td>{p.campaignStartDate}</td>
+                                            <td>{p.campaignEndDate}</td>
                                         </tr>
                                     );
                                 })}

@@ -6,8 +6,8 @@
             "channel": "Direct Mail",
             "campaignTitle": "QTY Training Campaign",
             "directMailCampaignCode": "C000001111",
-            "campaignStartDate": "2019-08-19T05:00:00.000Z",
-            "campaignEndDate": "2019-10-25T05:00:00.000Z",
+            "campaignStartDate": "19/08/2019",
+            "campaignEndDate": "25/10/2019",
             "status": "Published",
             "title": "qty training campaign"
         },
@@ -17,8 +17,8 @@
             "channel": "Direct Mail",
             "campaignTitle": "Test Campaign For HM1",
             "directMailCampaignCode": "0011",
-            "campaignStartDate": "2019-02-08T18:30:00.000Z",
-            "campaignEndDate": "2019-02-10T18:30:00.000Z",
+            "campaignStartDate": "09/02/2019",
+            "campaignEndDate": "11/02/2019",
             "status": "Published",
             "title": "test campaign for hm1"
         },
@@ -28,8 +28,8 @@
             "channel": "Direct Mail",
             "campaignTitle": "RB Neuriva Direct Mail",
             "directMailCampaignCode": "C000003520",
-            "campaignStartDate": "2019-03-31T05:00:00.000Z",
-            "campaignEndDate": "2019-06-01T05:00:00.000Z",
+            "campaignStartDate": "31/03/2019",
+            "campaignEndDate": "01/06/2019",
             "status": "Locked",
             "title": "rb neuriva direct mail"
         },
@@ -39,8 +39,8 @@
             "channel": "Direct Mail",
             "campaignTitle": "Hallmark Max 5 Offers",
             "directMailCampaignCode": "C00003456",
-            "campaignStartDate": "2019-02-02T06:00:00.000Z",
-            "campaignEndDate": "2019-02-13T06:00:00.000Z",
+            "campaignStartDate": "02/02/2019",
+            "campaignEndDate": "13/02/2019",
             "status": "Locked",
             "title": "hallmark max 5 offers"
         },
@@ -50,8 +50,8 @@
             "channel": "Direct Mail",
             "campaignTitle": "Hallmark 5 Offer Test 2",
             "directMailCampaignCode": "C000002828",
-            "campaignStartDate": "2019-01-25T06:00:00.000Z",
-            "campaignEndDate": "2019-02-02T06:00:00.000Z",
+            "campaignStartDate": "25/01/2019",
+            "campaignEndDate": "02/02/2019",
             "status": "Locked",
             "title": "hallmark 5 offer test 2"
         }

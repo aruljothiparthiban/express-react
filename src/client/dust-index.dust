@@ -31,8 +31,8 @@
                                         <td>{directMailCampaignCode}</td>
                                         <td>{title}</td>
                                         <td>{channel}</td>
-                                        <td>{moment(campaignStartDate).format('DD/MM/YYYY')}</td>
-                                        <td>{moment(campaignEndDate).format('DD/MM/YYYY')}</td>
+                                        <td>{campaignStartDate}</td>
+                                        <td>{campaignEndDate}</td>
                                     </tr>
                                 {/items}
                                 {@eq key=items.length value=0}

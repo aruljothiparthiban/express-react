@@ -2,7 +2,7 @@ import express from 'express';
 import path from 'path';
 import React from 'react';
 import { renderToString } from 'react-dom/server';
-const render = require('dust-engine').render;
+const DustEngine = require('dust-engine').DustEngine;
 import App from '../client/components/App';
 import services from './services';
 
@@ -28,13 +28,19 @@ app.use('/react/', (req, res)=>{
     });
 });
 
+
 app.use('/dust/', (req, res) => {
+    const options = {
+        preserve_newlines  : true
+    };
+    let engine = new DustEngine(options);
+
     services.getCampaigns().then((campaigns) => {
         let items = campaigns.items;
 
         let filePath = path.join(__dirname, '../client/dust-index');
 
-        render(filePath, { items : items, isLoading: false }, function (err, output) {
+        engine.render(filePath, { items : items, isLoading: false }, function (err, output) {
             if(err){
                 res.status(500).send(err.message);
             }else{
