@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>My React App</title>
+        <link rel="icon" href="assets/favicon.ico" type="image/ico" sizes="16x16">
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    </head>
+    <body>
+        <div id="root">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Campaigns</h2>
+                        <br />
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Status</th>
+                                    <th>Program</th>
+                                    <th>Code</th>
+                                    <th>Title</th>
+                                    <th>Channel</th>
+                                    <th>State Date</th>
+                                    <th>End Date</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {#items}
+                                    <tr key={_id}>
+                                        <td>{status}</td>
+                                        <td>{programName}</td>
+                                        <td>{directMailCampaignCode}</td>
+                                        <td>{title}</td>
+                                        <td>{channel}</td>
+                                        <td>{moment(campaignStartDate).format('DD/MM/YYYY')}</td>
+                                        <td>{moment(campaignEndDate).format('DD/MM/YYYY')}</td>
+                                    </tr>
+                                {/items}
+                                {@eq key=items.length value=0}
+                                    {@eq key=isLoading value=true}
+                                        Loading ...
+                                    {:else}
+                                        No items found!
+                                    {/eq}
+                                {/eq}                    
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

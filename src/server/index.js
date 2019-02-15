@@ -1,8 +1,8 @@
 import express from 'express';
 import path from 'path';
-import fs from 'fs';
 import React from 'react';
 import { renderToString } from 'react-dom/server';
+const render = require('dust-engine').render;
 import App from '../client/components/App';
 import services from './services';
 
@@ -14,7 +14,7 @@ app.use('/robots.txt', (req, res)=>{
     res.status(404);
 });
 
-app.use('/', (req, res)=>{
+app.use('/react/', (req, res)=>{
     Promise.all([services.getHtml(), services.getCampaigns()]).then((values)=>{
         let html = values[0];
         let items = values[1].items;
@@ -24,6 +24,24 @@ app.use('/', (req, res)=>{
         //html = html.replace('<script type="text/javascript" src="client_bundle.js"></script>', '');
         res.send(html);
     }).catch(err=>{
+        res.status(500).send(err.message);
+    });
+});
+
+app.use('/dust/', (req, res) => {
+    services.getCampaigns().then((campaigns) => {
+        let items = campaigns.items;
+
+        let filePath = path.join(__dirname, '../client/dust-index');
+
+        render(filePath, { items : items, isLoading: false }, function (err, output) {
+            if(err){
+                res.status(500).send(err.message);
+            }else{
+                res.send(output);
+            }
+        });
+    }).catch(err => {
         res.status(500).send(err.message);
     });
 });
