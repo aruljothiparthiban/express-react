@@ -6,10 +6,17 @@ export default class App extends React.Component{
 
     constructor(props){
         super(props);
-        this.state = {
-            items : props.items || [],
-            isLoading : props.isLoading ===undefined || true
-        };
+        if(props.hasOwnProperty('items') && props.hasOwnProperty('isLoading')){
+            this.state = {
+                items : JSON.parse(JSON.stringify(props.items)),
+                isLoading : JSON.parse(JSON.stringify(props.isLoading))
+            };
+        }else{
+            this.state = {
+                items : [],
+                isLoading : true
+            };
+        }
     }
 
     componentDidMount(){
@@ -64,7 +71,7 @@ export default class App extends React.Component{
                                 })}
                                 {items.length===0 && (
                                     <tr>
-                                        <td colSpan="7" className="text-center">{isLoading?'Loading ...':'No items found!'}</td>
+                                        <td className="text-center">{isLoading?'Loading ...':'No items found!'}</td>
                                     </tr>
                                 )}                        
                             </tbody>
