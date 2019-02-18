@@ -1,29 +1,38 @@
 import path from 'path';
 import fs from 'fs';
 
+const DATA = {
+    CAMPAIGNS : null,
+    HTML : null
+};
+
 const getCampaigns = ()=>{
     return new Promise((resolve, reject)=>{
-        let filePath = path.join(__dirname, '../../../dist/public/data/campaign.json');
-        fs.readFile(filePath, 'utf-8', (err, result)=>{
-            if(err){
-                reject(err);
-                return;
+        try{
+            if(DATA.CAMPAIGNS === null){
+                let filePath = path.join(__dirname, '../../../dist/public/data/campaign.json');
+                DATA.CAMPAIGNS = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
             }
-            resolve(JSON.parse(result));
-        });
+            return resolve(DATA.CAMPAIGNS);
+        }
+        catch(err){
+            return reject(err);
+        }
     });
 };
 
 const getHtml = ()=>{
     return new Promise((resolve, reject)=>{
-        let filePath = path.join(__dirname, '../../../dist/public/client.html');
-        fs.readFile(filePath, 'utf-8', (err, html)=>{
-            if(err){
-                reject(err);
-                return;
+        try{
+            if(DATA.HTML === null){
+                let filePath = path.join(__dirname, '../../../dist/public/client.html');
+                DATA.HTML = fs.readFileSync(filePath, 'utf-8');
             }
-            resolve(html);
-        });
+            return resolve(DATA.HTML);
+        }
+        catch(err){
+            return reject(err);
+        }
     });
 };
 
