@@ -1,12 +1,16 @@
 import express from 'express';
 import path from 'path';
 import React from 'react';
+import engine from 'dust-engine';
 import { renderToString } from 'react-dom/server';
-const DustEngine = require('dust-engine').DustEngine;
 import App from '../client/components/App';
 import services from './services';
 
 const app = express();
+
+app.engine('dust', engine.renderForExpress);
+app.set('view engine', 'dust');
+app.set('views', path.join(__dirname,'../client'));
 
 app.use(express.static('dist/public'));
 
@@ -21,7 +25,6 @@ app.use('/react/', (req, res)=>{
 
         let jsxOut = renderToString(<App items={items} isLoading={false} />);
         html = html.replace('<div id="root"></div>', `<div id="root">${jsxOut}</div>`);
-        //html = html.replace('<script type="text/javascript" src="client_bundle.js"></script>', '');
         res.send(html);
     }).catch(err=>{
         res.status(500).send(err.message);
@@ -30,23 +33,8 @@ app.use('/react/', (req, res)=>{
 
 
 app.use('/dust/', (req, res) => {
-    const options = {
-        preserve_newlines  : true
-    };
-    let engine = new DustEngine(options);
-
     services.getCampaigns().then((campaigns) => {
-        let items = campaigns.items;
-
-        let filePath = path.join(__dirname, '../client/dust-index');
-
-        engine.render(filePath, { items : items, isLoading: false }, function (err, output) {
-            if(err){
-                res.status(500).send(err.message);
-            }else{
-                res.send(output);
-            }
-        });
+        res.render('dust-index', {  items : campaigns.items, isLoading: false });
     }).catch(err => {
         res.status(500).send(err.message);
     });

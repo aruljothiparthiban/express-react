@@ -1,0 +1,18 @@
+config:
+  target: 'http://localhost:3000'
+  phases:
+    - duration: 60
+      arrivalRate: 20
+scenarios:  
+  - name: "Just send some GEt requests to /react"
+    flow:
+      - loop:
+        - get:
+            url: "/react"
+        count: 20
+  - name: "Just send some GET requests to /dust"
+    flow:
+      - loop:
+        - get:
+           url: "/dust"
+        count: 20

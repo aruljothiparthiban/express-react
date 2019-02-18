@@ -5,3 +5,4 @@ node_modules
 dist
 test/load/*.json
 test/load/*.html
+notes.txt
