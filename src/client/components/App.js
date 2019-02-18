@@ -62,7 +62,7 @@ export default class App extends React.Component{
                                             <td>{p.status}</td>
                                             <td>{p.programName}</td>
                                             <td>{p.directMailCampaignCode}</td>
-                                            <td>{p.title}</td>
+                                            <td>{p.campaignTitle}</td>
                                             <td>{p.channel}</td>
                                             <td>{p.campaignStartDate}</td>
                                             <td>{p.campaignEndDate}</td>

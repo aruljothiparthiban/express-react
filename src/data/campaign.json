@@ -1,59 +1,1949 @@
 {
-    "items":[
+    "items": [
         {
             "_id": "5c619a37ed3e6f79ca7dd5b0",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc0",
             "programName": "Quarterly Thank You",
             "channel": "Direct Mail",
             "campaignTitle": "QTY Training Campaign",
             "directMailCampaignCode": "C000001111",
-            "campaignStartDate": "19/08/2019",
-            "campaignEndDate": "25/10/2019",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "50000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "50000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2019-06-10T05:00:00.000Z",
+            "campaignStartDate": "2019-08-19T05:00:00.000Z",
+            "campaignEndDate": "2019-10-25T05:00:00.000Z",
             "status": "Published",
-            "title": "qty training campaign"
+            "statusSequence": 1,
+            "title": "qty training campaign",
+            "emailCCode": "",
+            "directMailCCode": "c000001111",
+            "offerStats": [
+                {
+                    "status": "Submitted",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "_id": "5c674824ed3e6f79ca7dd606",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Direct Mail",
+            "campaignTitle": "DM CUSTOM / MOTHERS DAY",
+            "directMailCampaignCode": "C000003521",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "1000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "1000000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2019-02-16T06:00:00.000Z",
+            "campaignStartDate": "2019-04-21T05:00:00.000Z",
+            "campaignEndDate": "2019-06-22T05:00:00.000Z",
+            "status": "Published",
+            "statusSequence": 1,
+            "title": "dm custom / mothers day",
+            "emailCCode": "",
+            "directMailCCode": "c000003521",
+            "offerStats": [
+                {
+                    "status": "Draft",
+                    "count": 4
+                },
+                {
+                    "status": "Submitted",
+                    "count": 1
+                }
+            ]
         },
         {
             "_id": "5c4f48c14de853c4b77a3047",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc1",
             "programName": "Test Program",
             "channel": "Direct Mail",
             "campaignTitle": "Test Campaign For HM1",
             "directMailCampaignCode": "0011",
-            "campaignStartDate": "09/02/2019",
-            "campaignEndDate": "11/02/2019",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "100",
+                "minCirculation": 0,
+                "directMailMinCirculation": "200",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2019-02-05T18:30:00.000Z",
+            "campaignStartDate": "2019-02-08T18:30:00.000Z",
+            "campaignEndDate": "2019-02-10T18:30:00.000Z",
             "status": "Published",
-            "title": "test campaign for hm1"
+            "statusSequence": 1,
+            "title": "test campaign for hm1",
+            "emailCCode": "",
+            "directMailCCode": "0011",
+            "offerStats": [
+                {
+                    "status": "Draft",
+                    "count": 4
+                },
+                {
+                    "status": "Submitted",
+                    "count": 1
+                }
+            ]
         },
         {
             "_id": "5c59eae1c9a23479c4de6a2c",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
             "programName": "Custom Solo",
             "channel": "Direct Mail",
             "campaignTitle": "RB Neuriva Direct Mail",
             "directMailCampaignCode": "C000003520",
-            "campaignStartDate": "31/03/2019",
-            "campaignEndDate": "01/06/2019",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "500000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "500000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2019-02-06T06:00:00.000Z",
+            "campaignStartDate": "2019-03-31T05:00:00.000Z",
+            "campaignEndDate": "2019-06-01T05:00:00.000Z",
             "status": "Locked",
-            "title": "rb neuriva direct mail"
+            "statusSequence": 2,
+            "title": "rb neuriva direct mail",
+            "emailCCode": "",
+            "directMailCCode": "c000003520",
+            "offerStats": [
+                {
+                    "status": "Submitted",
+                    "count": 1
+                }
+            ]
         },
         {
             "_id": "5c3ca94ae77bc2d9007c08a1",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc0",
             "programName": "Quarterly Thank You",
             "channel": "Direct Mail",
             "campaignTitle": "Hallmark Max 5 Offers",
             "directMailCampaignCode": "C00003456",
-            "campaignStartDate": "02/02/2019",
-            "campaignEndDate": "13/02/2019",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "500000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "500000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2019-01-30T06:00:00.000Z",
+            "campaignStartDate": "2019-02-02T06:00:00.000Z",
+            "campaignEndDate": "2019-02-13T06:00:00.000Z",
             "status": "Locked",
-            "title": "hallmark max 5 offers"
+            "statusSequence": 2,
+            "title": "hallmark max 5 offers",
+            "emailCCode": "",
+            "directMailCCode": "c00003456",
+            "offerStats": [
+                {
+                    "status": "Submitted",
+                    "count": 7
+                }
+            ]
         },
         {
             "_id": "5c3d1b2935c2a48ed797cdb9",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
             "programName": "Custom Solo",
             "channel": "Direct Mail",
             "campaignTitle": "Hallmark 5 Offer Test 2",
             "directMailCampaignCode": "C000002828",
-            "campaignStartDate": "25/01/2019",
-            "campaignEndDate": "02/02/2019",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "500000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "500000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2019-01-22T06:00:00.000Z",
+            "campaignStartDate": "2019-01-25T06:00:00.000Z",
+            "campaignEndDate": "2019-02-02T06:00:00.000Z",
             "status": "Locked",
-            "title": "hallmark 5 offer test 2"
+            "statusSequence": 2,
+            "title": "hallmark 5 offer test 2",
+            "emailCCode": "",
+            "directMailCCode": "c000002828",
+            "offerStats": [
+                {
+                    "status": "Submitted",
+                    "count": 7
+                }
+            ]
+        },
+        {
+            "_id": "5c1551abcd318d4af8b250be",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc0",
+            "programName": "Quarterly Thank You",
+            "channel": "Direct Mail",
+            "campaignTitle": "Hallmark Test KV",
+            "directMailCampaignCode": "C000002928",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "500000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "50000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2019-01-17T06:00:00.000Z",
+            "campaignStartDate": "2019-02-02T06:00:00.000Z",
+            "campaignEndDate": "2019-04-24T05:00:00.000Z",
+            "status": "Locked",
+            "statusSequence": 2,
+            "title": "hallmark test kv",
+            "emailCCode": "",
+            "directMailCCode": "c000002928",
+            "offerStats": [
+                {
+                    "status": "Submitted",
+                    "count": 12
+                }
+            ]
+        },
+        {
+            "_id": "5c001698c7a4419b6a9e614e",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc0",
+            "programName": "Quarterly Thank You",
+            "channel": "Both (Direct Mail & Email)",
+            "campaignTitle": "ORIGINAL MAY 19 QTY",
+            "directMailCampaignCode": "C000003488",
+            "emailCampaignCode": "C000003489",
+            "circulation": {
+                "totalCirculation": "7000000",
+                "minCirculation": "50000",
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2019-01-09T06:00:00.000Z",
+            "campaignStartDate": "2019-04-28T05:00:00.000Z",
+            "campaignEndDate": "2019-06-29T05:00:00.000Z",
+            "status": "Locked",
+            "statusSequence": 2,
+            "title": "original may 19 qty",
+            "emailCCode": "c000003489",
+            "directMailCCode": "c000003488",
+            "offerStats": [
+                {
+                    "status": "Approved",
+                    "count": 1
+                },
+                {
+                    "status": "Submitted",
+                    "count": 35
+                }
+            ]
+        },
+        {
+            "_id": "5b0ed038a58ed1bf588a82d2",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc0",
+            "programName": "Quarterly Thank You",
+            "channel": "Both (Direct Mail & Email)",
+            "campaignTitle": "QTY Training Campaign",
+            "directMailCampaignCode": "C000001234",
+            "emailCampaignCode": "C000004567",
+            "circulation": {
+                "totalCirculation": "7000000",
+                "minCirculation": "50000",
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-12-25T06:00:00.000Z",
+            "campaignStartDate": "2019-02-05T00:00:00.000Z",
+            "campaignEndDate": "2019-02-12T06:00:00.000Z",
+            "status": "Locked",
+            "statusSequence": 2,
+            "title": "qty training campaign",
+            "emailCCode": "c000004567",
+            "directMailCCode": "c000001234",
+            "offerStats": [
+                {
+                    "status": "Returned",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "_id": "5c13c263c1d96c175ae0975e",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc1",
+            "programName": "Test Program",
+            "channel": "Direct Mail",
+            "campaignTitle": "Test Hallmark Code",
+            "directMailCampaignCode": "c000090",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "1000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "2000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-12-14T18:30:00.000Z",
+            "campaignStartDate": "2018-12-17T18:30:00.000Z",
+            "campaignEndDate": "2018-12-20T18:30:00.000Z",
+            "status": "Locked",
+            "statusSequence": 2,
+            "title": "test hallmark code",
+            "emailCCode": "",
+            "directMailCCode": "c000090",
+            "offerStats": [
+                {
+                    "status": "Draft",
+                    "count": 8
+                }
+            ]
+        },
+        {
+            "_id": "5bfdbdb92f85b3f9a9f70d1d",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc1",
+            "programName": "Test Program",
+            "channel": "Direct Mail",
+            "campaignTitle": "Test Campaign cal",
+            "directMailCampaignCode": "1000",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "100",
+                "minCirculation": 0,
+                "directMailMinCirculation": "100",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-11-28T06:00:00.000Z",
+            "campaignStartDate": "2018-12-01T06:00:00.000Z",
+            "campaignEndDate": "2018-12-03T06:00:00.000Z",
+            "status": "Locked",
+            "statusSequence": 2,
+            "title": "test campaign cal",
+            "emailCCode": "",
+            "directMailCCode": "1000",
+            "offerStats": []
+        },
+        {
+            "_id": "5c5dfaf0c9a23479c4de6a54",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Direct Mail",
+            "campaignTitle": "RB Digestive Advantage DM",
+            "directMailCampaignCode": "C000003537",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "240000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "240000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2019-02-09T06:00:00.000Z",
+            "campaignStartDate": "2019-04-07T05:00:00.000Z",
+            "campaignEndDate": "2019-06-08T05:00:00.000Z",
+            "status": "Draft",
+            "statusSequence": 3,
+            "title": "rb digestive advantage dm",
+            "emailCCode": "",
+            "directMailCCode": "c000003537",
+            "offerStats": [
+                {
+                    "status": "Submitted",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "_id": "5c619e5eed3e6f79ca7dd5b6",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc0",
+            "programName": "Quarterly Thank You",
+            "channel": "Direct Mail",
+            "campaignTitle": "Test for Pricing Details",
+            "directMailCampaignCode": "C000001112",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "50000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "50000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2019-06-10T05:00:00.000Z",
+            "campaignStartDate": "2019-08-19T05:00:00.000Z",
+            "campaignEndDate": "2019-10-25T05:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "test for pricing details",
+            "emailCCode": "",
+            "directMailCCode": "c000001112",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 8
+                }
+            ]
+        },
+        {
+            "_id": "5c637f18ed3e6f79ca7dd5e6",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "3/3 Coupon of the Week",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C210003021",
+            "circulation": {
+                "totalCirculation": "12000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "12000000"
+            },
+            "offerDeadline": "2019-02-15T06:00:00.000Z",
+            "campaignStartDate": "2019-02-28T06:00:00.000Z",
+            "campaignEndDate": "2019-03-09T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "3/3 coupon of the week",
+            "emailCCode": "c210003021",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 8
+                }
+            ]
+        },
+        {
+            "_id": "5c6312dbed3e6f79ca7dd5e0",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc1",
+            "programName": "Test Program",
+            "channel": "Both (Direct Mail & Email)",
+            "campaignTitle": "Recheck 0131Release -Test",
+            "directMailCampaignCode": "C100001",
+            "emailCampaignCode": "C200002",
+            "circulation": {
+                "totalCirculation": "1000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "1000",
+                "mailMinCirculation": "100"
+            },
+            "offerDeadline": "2019-02-13T18:30:00.000Z",
+            "campaignStartDate": "2019-02-18T18:30:00.000Z",
+            "campaignEndDate": "2019-02-20T18:30:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "recheck 0131release -test",
+            "emailCCode": "c200002",
+            "directMailCCode": "c100001",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "_id": "5c5dfaf0ed3e6f79ca7dd58b",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Direct Mail",
+            "campaignTitle": "RB Digestive Advantage DM",
+            "directMailCampaignCode": "C000003537",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "240000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "240000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2019-02-09T06:00:00.000Z",
+            "campaignStartDate": "2019-04-07T05:00:00.000Z",
+            "campaignEndDate": "2019-06-08T05:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "rb digestive advantage dm",
+            "emailCCode": "",
+            "directMailCCode": "c000003537",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "_id": "5c5a449ec9a23479c4de6a31",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "2/24 Coupon of the Week",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C190003021",
+            "circulation": {
+                "totalCirculation": "12000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "12000000"
+            },
+            "offerDeadline": "2019-02-08T06:00:00.000Z",
+            "campaignStartDate": "2019-02-21T06:00:00.000Z",
+            "campaignEndDate": "2019-03-02T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "2/24 coupon of the week",
+            "emailCCode": "c190003021",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 7
+                }
+            ]
+        },
+        {
+            "_id": "5c52293f73297d99717e6a2c",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Both (Direct Mail & Email)",
+            "campaignTitle": "Solo LOP MNY April Hair",
+            "directMailCampaignCode": "C000003519",
+            "emailCampaignCode": "C000003535",
+            "circulation": {
+                "totalCirculation": "480000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "480000",
+                "mailMinCirculation": "3000000"
+            },
+            "offerDeadline": "2019-02-01T06:00:00.000Z",
+            "campaignStartDate": "2019-03-24T05:00:00.000Z",
+            "campaignEndDate": "2019-05-25T05:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "solo lop mny april hair",
+            "emailCCode": "c000003535",
+            "directMailCCode": "c000003519",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "_id": "5c53a0b2c9a23479c4de6a14",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "2/17 Coupon of the Week",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C180003021",
+            "circulation": {
+                "totalCirculation": "12000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "12000000"
+            },
+            "offerDeadline": "2019-02-01T06:00:00.000Z",
+            "campaignStartDate": "2019-02-14T06:00:00.000Z",
+            "campaignEndDate": "2019-02-23T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "2/17 coupon of the week",
+            "emailCCode": "c180003021",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 7
+                }
+            ]
+        },
+        {
+            "_id": "5c52ecfaed3e6f79ca7dd527",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc1",
+            "programName": "Test Program",
+            "channel": "Direct Mail",
+            "campaignTitle": "Jan31ReleaseSmoke-Test",
+            "directMailCampaignCode": "110000000",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "100",
+                "minCirculation": 0,
+                "directMailMinCirculation": "100",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2019-01-31T18:30:00.000Z",
+            "campaignStartDate": "2019-02-05T18:30:00.000Z",
+            "campaignEndDate": "2019-02-07T18:30:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "jan31releasesmoke-test",
+            "emailCCode": "",
+            "directMailCCode": "110000000",
+            "offerStats": [
+                {
+                    "status": "Draft",
+                    "count": 5
+                },
+                {
+                    "status": "Signed-Off",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "_id": "5c48fddc4de853c4b77a3032",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "2/10 Coupon of the Week",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C170003021",
+            "circulation": {
+                "totalCirculation": "12000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "12000000"
+            },
+            "offerDeadline": "2019-01-25T06:00:00.000Z",
+            "campaignStartDate": "2019-02-07T06:00:00.000Z",
+            "campaignEndDate": "2019-02-16T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "2/10 coupon of the week",
+            "emailCCode": "c170003021",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "_id": "5c411d37e77bc2d9007c08b5",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "2/3 Coupon of the Week",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C160003021",
+            "circulation": {
+                "totalCirculation": "12000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "12000000"
+            },
+            "offerDeadline": "2019-01-18T06:00:00.000Z",
+            "campaignStartDate": "2019-01-31T06:00:00.000Z",
+            "campaignEndDate": "2019-02-09T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "2/3 coupon of the week",
+            "emailCCode": "c160003021",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 7
+                }
+            ]
+        },
+        {
+            "_id": "5c37bf90e77bc2d9007c0862",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "1/27 Coupon of the Week",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C150003021",
+            "circulation": {
+                "totalCirculation": "12000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "12000000"
+            },
+            "offerDeadline": "2019-01-11T06:00:00.000Z",
+            "campaignStartDate": "2019-01-24T06:00:00.000Z",
+            "campaignEndDate": "2019-02-02T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "1/27 coupon of the week",
+            "emailCCode": "c150003021",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 9
+                }
+            ]
+        },
+        {
+            "_id": "5c12df10dfdbb31760b7ad3e",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc0",
+            "programName": "Quarterly Thank You",
+            "channel": "Both (Direct Mail & Email)",
+            "campaignTitle": "Quarterly Thank You May19",
+            "directMailCampaignCode": "C000003488",
+            "emailCampaignCode": "C000003489",
+            "circulation": {
+                "totalCirculation": "7000000",
+                "minCirculation": "50000",
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2019-01-09T06:00:00.000Z",
+            "campaignStartDate": "2019-04-28T05:00:00.000Z",
+            "campaignEndDate": "2019-06-29T05:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "quarterly thank you may19",
+            "emailCCode": "c000003489",
+            "directMailCCode": "c000003488",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 124
+                }
+            ]
+        },
+        {
+            "_id": "5c2eb53f81be4ffb32863fe0",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "1/20 Coupon of the Week",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C140003021",
+            "circulation": {
+                "totalCirculation": "12000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "12000000"
+            },
+            "offerDeadline": "2019-01-04T06:00:00.000Z",
+            "campaignStartDate": "2019-01-17T06:00:00.000Z",
+            "campaignEndDate": "2019-01-26T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "1/20 coupon of the week",
+            "emailCCode": "c140003021",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 8
+                }
+            ]
+        },
+        {
+            "_id": "5c2cfe10beaf9b7956c4bbaf",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "LTY LOP Cos March EM",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C000003507",
+            "circulation": {
+                "totalCirculation": "3000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "3000000"
+            },
+            "offerDeadline": "2019-01-03T06:00:00.000Z",
+            "campaignStartDate": "2019-02-24T06:00:00.000Z",
+            "campaignEndDate": "2019-04-27T05:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "lty lop cos march em",
+            "emailCCode": "c000003507",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "_id": "5c2a9d1d81be4ffb32863f98",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "1/13 Coupon of the Week",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C130003021",
+            "circulation": {
+                "totalCirculation": "12000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "12000000"
+            },
+            "offerDeadline": "2019-01-01T06:00:00.000Z",
+            "campaignStartDate": "2019-01-10T06:00:00.000Z",
+            "campaignEndDate": "2019-01-19T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "1/13 coupon of the week",
+            "emailCCode": "c130003021",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 9
+                }
+            ]
+        },
+        {
+            "_id": "5c1805b5c3f11daea2f63948",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Direct Mail",
+            "campaignTitle": "LTY LOP Cos March DM",
+            "directMailCampaignCode": "C000003506",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "240000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "240000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-12-22T06:00:00.000Z",
+            "campaignStartDate": "2019-02-24T06:00:00.000Z",
+            "campaignEndDate": "2019-04-27T05:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "lty lop cos march dm",
+            "emailCCode": "",
+            "directMailCCode": "c000003506",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "_id": "5c1443cec3f11daea2f638de",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc1",
+            "programName": "Test Program",
+            "channel": "Both (Direct Mail & Email)",
+            "campaignTitle": "Hallmark Fix 1214",
+            "directMailCampaignCode": "1000",
+            "emailCampaignCode": "1000",
+            "circulation": {
+                "totalCirculation": "100",
+                "minCirculation": 0,
+                "directMailMinCirculation": "100",
+                "mailMinCirculation": "100"
+            },
+            "offerDeadline": "2018-12-17T06:00:00.000Z",
+            "campaignStartDate": "2018-12-20T06:00:00.000Z",
+            "campaignEndDate": "2018-12-24T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "hallmark fix 1214",
+            "emailCCode": "1000",
+            "directMailCCode": "1000",
+            "offerStats": [
+                {
+                    "status": "Approved",
+                    "count": 3
+                },
+                {
+                    "status": "Draft",
+                    "count": 1
+                },
+                {
+                    "status": "Submitted",
+                    "count": 6
+                },
+                {
+                    "status": "Signed-Off",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "_id": "5c144d0cc3f11daea2f638ff",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc1",
+            "programName": "Test Program",
+            "channel": "Both (Direct Mail & Email)",
+            "campaignTitle": "Hallmark Fix 1214a",
+            "directMailCampaignCode": "1000",
+            "emailCampaignCode": "1000",
+            "circulation": {
+                "totalCirculation": "100",
+                "minCirculation": 0,
+                "directMailMinCirculation": "100",
+                "mailMinCirculation": "100"
+            },
+            "offerDeadline": "2018-12-17T06:00:00.000Z",
+            "campaignStartDate": "2018-12-20T06:00:00.000Z",
+            "campaignEndDate": "2018-12-24T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "hallmark fix 1214a",
+            "emailCCode": "1000",
+            "directMailCCode": "1000",
+            "offerStats": [
+                {
+                    "status": "Returned",
+                    "count": 1
+                },
+                {
+                    "status": "Submitted",
+                    "count": 4
+                },
+                {
+                    "status": "Draft",
+                    "count": 4
+                },
+                {
+                    "status": "Signed-Off",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "_id": "5c12b8badfdbb31760b7ad0e",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc1",
+            "programName": "Test Program",
+            "channel": "Both (Direct Mail & Email)",
+            "campaignTitle": "Angel Sprint 2 Validation",
+            "directMailCampaignCode": "100",
+            "emailCampaignCode": "100",
+            "circulation": {
+                "totalCirculation": "100",
+                "minCirculation": 0,
+                "directMailMinCirculation": "100",
+                "mailMinCirculation": "100"
+            },
+            "offerDeadline": "2018-12-14T06:00:00.000Z",
+            "campaignStartDate": "2018-12-19T06:00:00.000Z",
+            "campaignEndDate": "2018-12-21T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "angel sprint 2 validation",
+            "emailCCode": "100",
+            "directMailCCode": "100",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 1
+                },
+                {
+                    "status": "Approved",
+                    "count": 3
+                },
+                {
+                    "status": "Submitted",
+                    "count": 1
+                },
+                {
+                    "status": "Returned",
+                    "count": 1
+                },
+                {
+                    "status": "Draft",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "_id": "5c12c289dfdbb31760b7ad2f",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc1",
+            "programName": "Test Program",
+            "channel": "Direct Mail",
+            "campaignTitle": "Angel 2 Release Plan a",
+            "directMailCampaignCode": "100",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "100",
+                "minCirculation": 0,
+                "directMailMinCirculation": "100",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-12-14T06:00:00.000Z",
+            "campaignStartDate": "2018-12-17T06:00:00.000Z",
+            "campaignEndDate": "2018-12-19T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "angel 2 release plan a",
+            "emailCCode": "",
+            "directMailCCode": "100",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "_id": "5c12c667c1d96c175ae09710",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc1",
+            "programName": "Test Program",
+            "channel": "Direct Mail",
+            "campaignTitle": "Angel Release ' Plan, B",
+            "directMailCampaignCode": "1000",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "100",
+                "minCirculation": 0,
+                "directMailMinCirculation": "100",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-12-14T06:00:00.000Z",
+            "campaignStartDate": "2018-12-19T06:00:00.000Z",
+            "campaignEndDate": "2018-12-21T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "angel release ' plan, b",
+            "emailCCode": "",
+            "directMailCCode": "1000",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "_id": "5c12c831dfdbb31760b7ad36",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc1",
+            "programName": "Test Program",
+            "channel": "Both (Direct Mail & Email)",
+            "campaignTitle": "spcl' character, valid..",
+            "directMailCampaignCode": "100",
+            "emailCampaignCode": "100",
+            "circulation": {
+                "totalCirculation": "100",
+                "minCirculation": 0,
+                "directMailMinCirculation": "100",
+                "mailMinCirculation": "100"
+            },
+            "offerDeadline": "2018-12-14T06:00:00.000Z",
+            "campaignStartDate": "2018-12-19T06:00:00.000Z",
+            "campaignEndDate": "2018-12-21T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "spcl' character, valid..",
+            "emailCCode": "100",
+            "directMailCCode": "100",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "_id": "5c10332bdcfb2249f3229b72",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "12/30 Coupon of the Week",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C120003021",
+            "circulation": {
+                "totalCirculation": "12000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "12000000"
+            },
+            "offerDeadline": "2018-12-13T06:00:00.000Z",
+            "campaignStartDate": "2018-12-27T06:00:00.000Z",
+            "campaignEndDate": "2019-01-05T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "12/30 coupon of the week",
+            "emailCCode": "c120003021",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "_id": "5c0702e87a1fa3c2ab2ff190",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "12/23 Coupon of the Week",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C110003021",
+            "circulation": {
+                "totalCirculation": "12000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "12000000"
+            },
+            "offerDeadline": "2018-12-06T06:00:00.000Z",
+            "campaignStartDate": "2018-12-20T06:00:00.000Z",
+            "campaignEndDate": "2018-12-29T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "12/23 coupon of the week",
+            "emailCCode": "c110003021",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "_id": "5bfff30cf7f15c9b64b213db",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc1",
+            "programName": "Test Program",
+            "channel": "Direct Mail",
+            "campaignTitle": "Angel 1 Rel Test Program",
+            "directMailCampaignCode": "1000",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "100",
+                "minCirculation": 0,
+                "directMailMinCirculation": "100",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-11-30T06:00:00.000Z",
+            "campaignStartDate": "2018-12-05T06:00:00.000Z",
+            "campaignEndDate": "2018-12-07T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "angel 1 rel test program",
+            "emailCCode": "",
+            "directMailCCode": "1000",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "_id": "5bfc0d87464439c8ea57b411",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Direct Mail",
+            "campaignTitle": "LTY Mucinex March Chronic",
+            "directMailCampaignCode": "C000003483",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "500000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "500000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-11-27T06:00:00.000Z",
+            "campaignStartDate": "2019-02-17T06:00:00.000Z",
+            "campaignEndDate": "2019-04-20T05:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "lty mucinex march chronic",
+            "emailCCode": "",
+            "directMailCCode": "c000003483",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "_id": "5be45126f1ba7275df27c26a",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc1",
+            "programName": "Test Program",
+            "channel": "Both (Direct Mail & Email)",
+            "campaignTitle": "TestcampaignTestCampaignt",
+            "directMailCampaignCode": "1000",
+            "emailCampaignCode": "2000",
+            "circulation": {
+                "totalCirculation": "100",
+                "minCirculation": 0,
+                "directMailMinCirculation": "100",
+                "mailMinCirculation": "100"
+            },
+            "offerDeadline": "2018-11-09T06:00:00.000Z",
+            "campaignStartDate": "2018-11-12T06:00:00.000Z",
+            "campaignEndDate": "2018-11-14T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "testcampaigntestcampaignt",
+            "emailCCode": "2000",
+            "directMailCCode": "1000",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "_id": "5be49937f1ba7275df27c2a3",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc1",
+            "programName": "Test Program",
+            "channel": "Both (Direct Mail & Email)",
+            "campaignTitle": "TestcampaignTestcampaign1",
+            "directMailCampaignCode": "1000",
+            "emailCampaignCode": "2000",
+            "circulation": {
+                "totalCirculation": "100",
+                "minCirculation": 0,
+                "directMailMinCirculation": "100",
+                "mailMinCirculation": "100"
+            },
+            "offerDeadline": "2018-11-09T06:00:00.000Z",
+            "campaignStartDate": "2018-11-12T06:00:00.000Z",
+            "campaignEndDate": "2018-11-14T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "testcampaigntestcampaign1",
+            "emailCCode": "2000",
+            "directMailCCode": "1000",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "_id": "5bd755f2516f9366b49c0cd6",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Direct Mail",
+            "campaignTitle": "Custom Solo Advil Therma",
+            "directMailCampaignCode": "C000003464",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "420000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "420000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-11-05T06:00:00.000Z",
+            "campaignStartDate": "2019-01-14T06:00:00.000Z",
+            "campaignEndDate": "2019-03-16T05:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "custom solo advil therma",
+            "emailCCode": "",
+            "directMailCCode": "c000003464",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "_id": "5bd77ffbff0689be5611400e",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "11/25 Coupon of the Week",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C900003021",
+            "circulation": {
+                "totalCirculation": "12000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "12000000"
+            },
+            "offerDeadline": "2018-11-05T06:00:00.000Z",
+            "campaignStartDate": "2018-11-22T06:00:00.000Z",
+            "campaignEndDate": "2018-12-01T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "11/25 coupon of the week",
+            "emailCCode": "c900003021",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 8
+                }
+            ]
+        },
+        {
+            "_id": "5bd09e4d4f80c8713e4561c6",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "11/18 Coupon of the Week",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C800003021",
+            "circulation": {
+                "totalCirculation": "12000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "12000000"
+            },
+            "offerDeadline": "2018-10-29T05:00:00.000Z",
+            "campaignStartDate": "2018-11-15T06:00:00.000Z",
+            "campaignEndDate": "2018-11-24T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "11/18 coupon of the week",
+            "emailCCode": "c800003021",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 8
+                }
+            ]
+        },
+        {
+            "_id": "5bc4bfb3dda890914e82e5e0",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "11/11 Coupon of the Week",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C700003021",
+            "circulation": {
+                "totalCirculation": "12000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "12000000"
+            },
+            "offerDeadline": "2018-10-22T05:00:00.000Z",
+            "campaignStartDate": "2018-11-08T06:00:00.000Z",
+            "campaignEndDate": "2018-11-17T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "11/11 coupon of the week",
+            "emailCCode": "c700003021",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 8
+                }
+            ]
+        },
+        {
+            "_id": "5bc50474dda890914e82e5f9",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Direct Mail",
+            "campaignTitle": "DM LTY Custom L'Oreal New",
+            "directMailCampaignCode": "C000003470",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "240000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "240000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-10-17T05:00:00.000Z",
+            "campaignStartDate": "2018-12-30T06:00:00.000Z",
+            "campaignEndDate": "2019-03-02T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "dm lty custom l'oreal new",
+            "emailCCode": "",
+            "directMailCCode": "c000003470",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "_id": "5bbfdb94e50236d1fe6abdeb",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "11/4 Coupon of the Week",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C600003021",
+            "circulation": {
+                "totalCirculation": "12000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "12000000"
+            },
+            "offerDeadline": "2018-10-15T05:00:00.000Z",
+            "campaignStartDate": "2018-11-01T05:00:00.000Z",
+            "campaignEndDate": "2018-11-10T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "11/4 coupon of the week",
+            "emailCCode": "c600003021",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 9
+                }
+            ]
+        },
+        {
+            "_id": "5b884f2cf02bd175da1be194",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc0",
+            "programName": "Quarterly Thank You",
+            "channel": "Both (Direct Mail & Email)",
+            "campaignTitle": "LTY Quarterly Feb 2019",
+            "directMailCampaignCode": "C000003420 ",
+            "emailCampaignCode": "C000003421",
+            "circulation": {
+                "totalCirculation": "7000000",
+                "minCirculation": "50000",
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-10-10T05:00:00.000Z",
+            "campaignStartDate": "2019-01-27T06:00:00.000Z",
+            "campaignEndDate": "2019-03-30T05:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "lty quarterly feb 2019",
+            "emailCCode": "c000003421",
+            "directMailCCode": "c000003420 ",
+            "offerStats": [
+                {
+                    "status": "Draft",
+                    "count": 1
+                },
+                {
+                    "status": "Signed-Off",
+                    "count": 124
+                }
+            ]
+        },
+        {
+            "_id": "5bb25edcfb680667379603c1",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Direct Mail",
+            "campaignTitle": "DM LTY Custom Solo OB Nice! Nuts",
+            "directMailCampaignCode": "C000003404",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "280000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "280000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-10-08T05:00:00.000Z",
+            "campaignStartDate": "2018-12-28T06:00:00.000Z",
+            "campaignEndDate": "2019-02-23T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "dm lty custom solo ob nice! nuts",
+            "emailCCode": "",
+            "directMailCCode": "c000003404",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "_id": "5bb6a17f594913ca04610c4e",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "10/28 Coupon of the Week",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C500003021",
+            "circulation": {
+                "totalCirculation": "12000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "12000000"
+            },
+            "offerDeadline": "2018-10-08T05:00:00.000Z",
+            "campaignStartDate": "2018-10-25T05:00:00.000Z",
+            "campaignEndDate": "2018-11-03T05:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "10/28 coupon of the week",
+            "emailCCode": "c500003021",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 9
+                }
+            ]
+        },
+        {
+            "_id": "5bb2970efb680667379603fd",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "10/21 Coupon of the Week",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C400003021",
+            "circulation": {
+                "totalCirculation": "12000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "12000000"
+            },
+            "offerDeadline": "2018-10-02T05:00:00.000Z",
+            "campaignStartDate": "2018-10-18T05:00:00.000Z",
+            "campaignEndDate": "2018-10-27T05:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "10/21 coupon of the week",
+            "emailCCode": "c400003021",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 9
+                }
+            ]
+        },
+        {
+            "_id": "5bad41576b388cdd6dff1844",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Direct Mail",
+            "campaignTitle": "DM LTY Custom Solo OB Smoke Cess",
+            "directMailCampaignCode": "C000003455",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "210000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "210000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-10-01T05:00:00.000Z",
+            "campaignStartDate": "2018-12-21T06:00:00.000Z",
+            "campaignEndDate": "2019-02-16T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "dm lty custom solo ob smoke cess",
+            "emailCCode": "",
+            "directMailCCode": "c000003455",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "_id": "5b9c525186b736649346700c",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Direct Mail",
+            "campaignTitle": "DM LTY Custom / Holiday Fragrance and Gifting",
+            "directMailCampaignCode": "C000003432",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "1000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "1000000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-09-22T05:00:00.000Z",
+            "campaignStartDate": "2018-12-02T06:00:00.000Z",
+            "campaignEndDate": "2018-12-25T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "dm lty custom / holiday fragrance and gifting",
+            "emailCCode": "",
+            "directMailCCode": "c000003432",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "_id": "5ba0326386b7366493467020",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "10/14 Coupon of the Week",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C300003021",
+            "circulation": {
+                "totalCirculation": "12000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "12000000"
+            },
+            "offerDeadline": "2018-09-22T05:00:00.000Z",
+            "campaignStartDate": "2018-10-11T05:00:00.000Z",
+            "campaignEndDate": "2018-10-20T05:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "10/14 coupon of the week",
+            "emailCCode": "c300003021",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 7
+                }
+            ]
+        },
+        {
+            "_id": "5ba11f4286b7366493467028",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Direct Mail",
+            "campaignTitle": "DM LTY Custom Solo L'Oreal Vichy and La Roche-Posay",
+            "directMailCampaignCode": "C000003433",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "320000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "320000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-09-21T05:00:00.000Z",
+            "campaignStartDate": "2018-12-05T06:00:00.000Z",
+            "campaignEndDate": "2019-02-02T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "dm lty custom solo l'oreal vichy and la roche-posay",
+            "emailCCode": "",
+            "directMailCCode": "c000003433",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "_id": "5b9982178e82e0648db3d3c0",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "10/7 Coupon of the Week",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C200003021",
+            "circulation": {
+                "totalCirculation": "12000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "12000000"
+            },
+            "offerDeadline": "2018-09-15T05:00:00.000Z",
+            "campaignStartDate": "2018-10-04T05:00:00.000Z",
+            "campaignEndDate": "2018-10-13T05:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "10/7 coupon of the week",
+            "emailCCode": "c200003021",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 8
+                }
+            ]
+        },
+        {
+            "_id": "5b746d66f02bd175da1be15e",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "9/30 Coupon of the Week",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C000003021",
+            "circulation": {
+                "totalCirculation": "12000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "12000000"
+            },
+            "offerDeadline": "2018-09-01T05:00:00.000Z",
+            "campaignStartDate": "2018-09-26T05:00:00.000Z",
+            "campaignEndDate": "2018-10-06T05:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "9/30 coupon of the week",
+            "emailCCode": "c000003021",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 15
+                }
+            ]
+        },
+        {
+            "_id": "5b870e8a08220375d4cc02be",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Direct Mail",
+            "campaignTitle": "Mucinex FY19 Seasonal",
+            "directMailCampaignCode": "C000003425",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "1300000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "300000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-08-31T05:00:00.000Z",
+            "campaignStartDate": "2018-11-11T06:00:00.000Z",
+            "campaignEndDate": "2019-01-12T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "mucinex fy19 seasonal",
+            "emailCCode": "",
+            "directMailCCode": "c000003425",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "_id": "5b743a1108220375d4cc0282",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Email",
+            "campaignTitle": "9/23 Coupon of the Week",
+            "directMailCampaignCode": null,
+            "emailCampaignCode": "C000003021",
+            "circulation": {
+                "totalCirculation": "12000000",
+                "minCirculation": 0,
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": "12000000"
+            },
+            "offerDeadline": "2018-08-25T05:00:00.000Z",
+            "campaignStartDate": "2018-09-19T05:00:00.000Z",
+            "campaignEndDate": "2018-09-29T05:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "9/23 coupon of the week",
+            "emailCCode": "c000003021",
+            "directMailCCode": "",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 15
+                }
+            ]
+        },
+        {
+            "_id": "5b6c48b9f02bd175da1be12c",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Direct Mail",
+            "campaignTitle": "DM LTY Custom Solo Lifescan",
+            "directMailCampaignCode": "C000003407",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "240000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "240000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-08-15T05:00:00.000Z",
+            "campaignStartDate": "2018-10-15T05:00:00.000Z",
+            "campaignEndDate": "2018-12-15T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "dm lty custom solo lifescan",
+            "emailCCode": "",
+            "directMailCCode": "c000003407",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "_id": "5b6c7f3108220375d4cc0266",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Direct Mail",
+            "campaignTitle": "DM Loyalty Custom Solo Emerson Group",
+            "directMailCampaignCode": "C000003405",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "350000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "350000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-08-14T05:00:00.000Z",
+            "campaignStartDate": "2018-10-10T05:00:00.000Z",
+            "campaignEndDate": "2018-12-08T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "dm loyalty custom solo emerson group",
+            "emailCCode": "",
+            "directMailCCode": "c000003405",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 7
+                }
+            ]
+        },
+        {
+            "_id": "5b6482e95280e807c4c57427",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Direct Mail",
+            "campaignTitle": "DM LTY Custom Solo OB Nice! Nuts",
+            "directMailCampaignCode": "C000003404",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "280000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "280000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-08-07T05:00:00.000Z",
+            "campaignStartDate": "2018-09-25T05:00:00.000Z",
+            "campaignEndDate": "2018-11-24T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "dm lty custom solo ob nice! nuts",
+            "emailCCode": "",
+            "directMailCCode": "c000003404",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "_id": "5b5f83cf6f3c7e6c4d3275d2",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becbf",
+            "programName": "Custom Solo",
+            "channel": "Direct Mail",
+            "campaignTitle": "DM LTY Custom FY19 Domtar INCO Wave1",
+            "directMailCampaignCode": "C000003381",
+            "emailCampaignCode": null,
+            "circulation": {
+                "totalCirculation": "436000",
+                "minCirculation": 0,
+                "directMailMinCirculation": "436000",
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-08-02T05:00:00.000Z",
+            "campaignStartDate": "2018-10-07T05:00:00.000Z",
+            "campaignEndDate": "2018-12-08T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "dm lty custom fy19 domtar inco wave1",
+            "emailCCode": "",
+            "directMailCCode": "c000003381",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "_id": "5b0ee115fe571fbf5ecc2780",
+            "customer": "walgreens",
+            "programId": "5af4a3e6dee124fc978becc0",
+            "programName": "Quarterly Thank You",
+            "channel": "Both (Direct Mail & Email)",
+            "campaignTitle": "LTY QUARTERLY NOV 2018",
+            "directMailCampaignCode": "C000003353",
+            "emailCampaignCode": "C000003354",
+            "circulation": {
+                "totalCirculation": "7000000",
+                "minCirculation": "50000",
+                "directMailMinCirculation": 0,
+                "mailMinCirculation": 0
+            },
+            "offerDeadline": "2018-07-12T05:00:00.000Z",
+            "campaignStartDate": "2018-10-28T05:00:00.000Z",
+            "campaignEndDate": "2018-12-29T06:00:00.000Z",
+            "status": "Signed-Off",
+            "statusSequence": 4,
+            "title": "lty quarterly nov 2018",
+            "emailCCode": "c000003354",
+            "directMailCCode": "c000003353",
+            "offerStats": [
+                {
+                    "status": "Signed-Off",
+                    "count": 136
+                }
+            ]
         }
     ]
 }

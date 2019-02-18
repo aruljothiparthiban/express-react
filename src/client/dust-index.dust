@@ -29,7 +29,7 @@
                                         <td>{status}</td>
                                         <td>{programName}</td>
                                         <td>{directMailCampaignCode}</td>
-                                        <td>{title}</td>
+                                        <td>{campaignTitle}</td>
                                         <td>{channel}</td>
                                         <td>{campaignStartDate}</td>
                                         <td>{campaignEndDate}</td>
