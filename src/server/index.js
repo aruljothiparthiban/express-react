@@ -19,28 +19,34 @@ app.use('/robots.txt', (req, res)=>{
     res.status(404);
 });
 
-app.use('/react/', (req, res)=>{
-    Promise.all([services.getHtml(), services.getCampaigns()]).then((values)=>{
+app.use('/react/', async (req, res)=>{
+    try{
+        let values = await Promise.all([services.getHtml(), services.getCampaigns()]);
         let html = values[0];
         let items = values[1].items;
 
         let jsxOut = renderToString(<App items={items} isLoading={false} />);
         html = html.replace('<div id="root"></div>', `<div id="root">${jsxOut}</div>`);
-        res.setHeader('Cache-Control', 'no-cache');
         res.send(html);
-    }).catch(err=>{
+    }
+    catch(err){
         res.status(500).send(err.message);
-    });
+    }
 });
 
 
-app.use('/dust/', (req, res) => {
-    services.getCampaigns().then((campaigns) => {
-        res.setHeader('Cache-Control', 'no-cache');
+app.use('/dust/', async (req, res) => {
+    try{
+        let campaigns = await services.getCampaigns();
         res.render('dust-index', {  items : campaigns.items, isLoading: false });
-    }).catch(err => {
+    }catch(err){
         res.status(500).send(err.message);
-    });
+    }
+});
+
+app.use('/what-is-my-ip', (req, res)=>{
+    let ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress
+    res.send(ip);
 });
 
 let port = process.env.PORT || 3000;

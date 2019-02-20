@@ -1,8 +1,8 @@
 config:
   target: 'http://localhost:3000'
   phases:
-    - duration: 30
-      arrivalRate: 90
+    - duration: 60
+      arrivalRate: 2
 scenarios:  
   - name: "Just send some GEt requests to /react"
     flow:

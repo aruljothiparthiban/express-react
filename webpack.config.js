@@ -4,7 +4,7 @@ const nodeExternals = require('webpack-node-externals');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const client = {
-    entry : './src/client/index.js',
+    entry : ['@babel/polyfill', './src/client/index.js'],
     output : {
         path : path.join(__dirname, 'dist/public'),
         filename : 'client_bundle.js'
@@ -39,7 +39,7 @@ const client = {
 };
 
 const server = {
-    entry: './src/server/index.js',
+    entry: ['@babel/polyfill', './src/server/index.js'],
     context: __dirname,
     target: 'node',
     node: {
