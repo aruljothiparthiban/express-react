@@ -1,5 +1,8 @@
 import path from 'path';
 import fs from 'fs';
+import React from 'react';
+import { renderToString } from 'react-dom/server';
+import App from '../../client/components/App';
 
 const DATA = {
     CAMPAIGNS : null,
@@ -36,7 +39,29 @@ const getHtml = ()=>{
     });
 };
 
+const cache = [];
+
+const getReactHtml =(items)=> {
+    let itemsStr = JSON.stringify(items);
+    let html = '';
+    if(cache.length === 5){
+        cache.shift();
+    }
+    for(let i=0; i <cache.length; i++){
+        if(cache[i].key === itemsStr){
+           return cache[i].html;
+        }
+    }
+    html = renderToString(<App items={items} isLoading={false} />);
+    cache.push({
+        key: itemsStr,
+        html
+    });
+    return html;
+}
+
 export default {
+    getReactHtml,
     getCampaigns,
     getHtml
 };

@@ -1,6 +1,7 @@
 logs
 *.log
 *.lock
+*-lock.json
 node_modules
 dist
 test/load/*.json

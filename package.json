@@ -9,9 +9,12 @@
     "dev": "npm-run-all --parallel dev:*",
     "build": "webpack --mode production",
     "start": "webpack --mode production && node dist/server_bundle.js",
-    "load-test:run": "node_modules/.bin/artillery run -o test/load/report.json test/load/spec.yml",
-    "load-test:report": "node_modules/.bin/artillery report test/load/report.json",
-    "load-test": "npm-run-all load-test:*"
+    "load-test-react:run": "node_modules/.bin/artillery run -o test/load/react.json test/load/react.yml",
+    "load-test-react:report": "node_modules/.bin/artillery report test/load/react.json",
+    "load-test-react": "npm-run-all load-test-react:*",
+    "load-test-dust:run": "node_modules/.bin/artillery run -o test/load/dust.json test/load/dust.yml",
+    "load-test-dust:report": "node_modules/.bin/artillery report test/load/dust.json",
+    "load-test-dust": "npm-run-all load-test-dust:*"
   },
   "author": "Aruljothi Parthiban",
   "license": "MIT",

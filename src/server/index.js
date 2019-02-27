@@ -1,9 +1,6 @@
 import express from 'express';
 import path from 'path';
-import React from 'react';
 import engine from 'dust-engine';
-import { renderToString } from 'react-dom/server';
-import App from '../client/components/App';
 import services from './services';
 
 const app = express();
@@ -25,7 +22,9 @@ app.use('/react/', async (req, res)=>{
         let html = values[0];
         let items = values[1].items;
 
-        let jsxOut = renderToString(<App items={items} isLoading={false} />);
+        let jsxOut = services.getReactHtml(items);
+
+        //let jsxOut = renderToString(<App items={items} isLoading={false} />);
         html = html.replace('<div id="root"></div>', `<div id="root">${jsxOut}</div>`);
         res.send(html);
     }
